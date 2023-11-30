@@ -1,0 +1,94 @@
+.container {
+    display: grid;
+    grid-template-columns: 230px 1fr; /* Adjust the sidebar width and main content area as needed */
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .sidebar {
+    background-color: #f1f1f1;
+    /* Additional styles for the sidebar */
+  }
+  
+  .sidebar p{
+    padding: 10px;
+  }
+  .main-content {
+    /* Additional styles for the main content */
+  }
+  
+  #user{
+    font-size: 45px;
+    margin-left: 6%;
+    margin-top: 7%;
+  }
+
+  #admin{
+    margin-left: 30%;
+    margin-top: -13%;
+  }
+
+  #logo111{
+    width: 100px;
+    margin-left: 3%;
+    margin-top: 0.5%;
+   
+  }
+
+  #hi{
+    margin-left: 20%;
+    margin-top: -10%;
+    font-size: 3.2em;
+
+    text-align: center;
+    width: 500px;
+  }
+
+  #search{
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    left: 750px;
+    bottom: 130px;
+    height: 30px;
+    border-color: black;
+  }
+
+  .orders11{
+    display: grid;
+    grid-template-columns: repeat(5,5fr);
+    margin-left: 3%;
+    
+  }
+
+  #div111{
+    width: 120px;
+    border-style: solid;
+  }
+
+  #div111 p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  #button111{
+    text-align: center;
+    margin-left: 40%;
+    width: 140px;
+    height: 35px;
+    border-radius: 40px;
+  }
+ 
+  .table111,th,td{
+    margin-left: 2%;
+    border: 1px solid black;
+    border-color: rgb(255, 123, 0);
+     border-style: double; 
+    /* width: 60%; height: 60%; */
+
+    border-collapse: collapse;
+  }
+
+ #stars i{
+    color: gold;
+ }
